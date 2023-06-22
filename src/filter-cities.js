@@ -6,6 +6,8 @@ const allItems = cities.map((city, index) => ({
   id: String(index),
 }))
 
+//Exercise issue comment
+
 // for some reason workerize doesn't like export {getItems}
 // but it's fine with inline exports like this so that's what we're doing.
 export function getItems(filter) {
